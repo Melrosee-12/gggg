@@ -1,0 +1,95 @@
+*{
+    /*border: 1px red solid;*/
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #e9ffbb;
+}
+
+header{
+    min-height: 80px;
+    display: flex;
+    background-color: #4d9d4d;
+    justify-content: center;
+}
+
+#logo{
+    position: absolute ;
+    color: #ffee00;
+    left: 10px;
+    font-weight: 300;
+}
+
+#menu{
+    width: 1600px;
+    text-decoration: none;
+    min-height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#menu a{
+    border: none;
+    color: #ffee00;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#p, #p1{
+    color: rgb(85, 128, 88);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#p1 h4{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#p h2{
+
+    margin-bottom: 0;
+}
+
+.contackt{
+    margin: 20px;
+    height: 300px;
+    background-color: #4d9d4d;
+    border-radius:20px;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.con{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(103, 255, 124);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff898;
+    background-color: #264c26;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}

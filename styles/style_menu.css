@@ -1,0 +1,156 @@
+*{
+    border: px red solid;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(#e9ffbb,#264c26);
+}
+
+header{
+    min-height: 80px;
+    display: flex;
+    background-color: #4d9d4d;
+    justify-content: center;
+}
+
+#logo{
+    position: absolute ;
+    color: #ffee00;
+    left: 10px;
+    font-weight: 300;
+}
+
+#menu{
+    width: auto;
+    text-decoration: none;
+    min-height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#menu a{
+    border: none;
+    color: #ffee00;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#p, #p1{
+    color: rgb(85, 128, 88);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#p1 h4{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#p h2{
+
+    margin-bottom: 0;
+}
+
+.menu-1{
+    margin: 15px;
+    padding-top: 10px;
+    width: 450px;
+    height: 800px;
+    background-color: #84d39c;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #274427;
+    transform: translateY(5px);
+    transition: transform 0.8s ease;
+}
+
+.menu-2{
+    margin: 15px;
+    padding-top: 10px;
+    width: 450px;
+    height: 800px;
+    background-color: #84d39c;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #274427;
+    transform: translateY(5px);
+    transition: transform 0.8s ease;
+}
+
+.menu-3{
+    margin: 15px;
+    padding-top: 10px;
+    width: 450px;
+    height: 800px;
+    background-color: #84d39c;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #274427;
+    transform: translateY(5px);
+    transition: transform 0.8s ease;
+}
+
+.menu_1{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.w{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-2:hover, .menu-1:hover, .menu-3:hover{
+    transform: translateY(-5px);
+    transition: transform 0.8s ease;
+}
+
+
+.price{
+    font-size:medium;
+    font-weight: 600;
+}
+
+.coffe{
+    margin-right: 150px;
+}
+
+.price-shake{
+    margin-bottom: 50px;
+}
+
+.price-1{
+    margin-left:20px;
+    font-size:medium;
+    font-weight: 600;
+}
+
+.price-salat p{
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.price-alko p{
+    line-height: 21px;
+    font-weight: 600;
+
+}
+
+.price-eda p{
+    line-height: 25px;
+    font-weight: 600;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff898;
+    background-color: #264c26;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
